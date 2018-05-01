@@ -12,4 +12,4 @@ app.use(routes);
 
 app.listen(process.env.PORT || 3000, function(){
     console.log("SERVER IS STARTED ON PORT " + PORT)
-};
+});
