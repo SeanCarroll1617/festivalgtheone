@@ -11,5 +11,5 @@ app.use(express.static(path.join(__dirname + "/public")));
 app.use(routes);
 
 app.listen(process.env.PORT || 3000, function(){
-    console.log("SERVER IS STARTED ON PORT " + PORT)
+    console.log("SERVER IS STARTED ON PORT ")
 });
