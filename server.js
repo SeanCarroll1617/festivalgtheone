@@ -2,8 +2,6 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const path = require("path");
 
-const PORT = 3000 || process.env.PORT;
-
 const routes = require("./routes/router.js");
 
 const app = express();
@@ -12,6 +10,6 @@ app.use(bodyParser.json())
 app.use(express.static(path.join(__dirname + "/public")));
 app.use(routes);
 
-app.listen(PORT, function(){
-	console.log("SERVER IS STARTED ON PORT " + PORT)
-})
+app.listen(process.env.PORT || 3000, function(){
+    console.log("SERVER IS STARTED ON PORT " + PORT)
+};
