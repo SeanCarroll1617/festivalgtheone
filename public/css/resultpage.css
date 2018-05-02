@@ -1,0 +1,64 @@
+* {
+  background-color: #1abc9c;
+}
+p {
+	color:white;
+	font-style: italic;
+}
+/* HEADER w. searchbar and main logo */
+.header{
+  display: flex;
+}
+h1 {
+	color: #ecf0f1;
+	font-family: 'Work Sans', sans-serif;
+	text-shadow: 2px 2px #e74c3c, 4px 4px #3498db;
+}
+.logo {
+  font-size: 10px;
+ 	border: 2px solid white;
+ 	text-align: center;
+ 	width: 130px;
+ 	height: 50px;
+ 	margin-bottom: 25px;
+  margin-right: 20px;
+}
+.searchbar {
+  flex-grow: 1;
+}
+
+  /* TOP DESCRIPTION */
+.topinfo {
+  display: flex;
+}
+.festivalglogo {
+  width: 130px;
+}
+#festivalname {
+  flex-grow: 1;
+}
+.description {}
+
+/* ARTISTS + lINEUP */
+.artists {}
+
+/* NEWS */
+.news {}
+
+
+.footer {
+clear: both;
+		position:absolute;
+	 border-top: 1px solid rgba(255, 0, 0, .3);
+   bottom:0px;
+   width:100%;
+	 right: 0px;
+   height: 25px;
+   background: #2d3436;
+	 opacity: 0.4;
+	}
+footer p {
+	margin-top: 6px;
+	opacity: 0.8;
+	font-size: 12px;
+}
