@@ -49,7 +49,7 @@ router.route("COPENHELL").get((req, res) => {
 		res.end();
 	})
 })
-router.route("/grønkoncert").get((req, res) => {
+router.route("/Gr%C3%B8n%20Koncert").get((req, res) => {
 	fs.readFile("public/html/grønkoncert.html", (err, data) => {
 		res.writeHead(200, {"Content-Type": "text/html"})
 		res.write(data);
@@ -84,7 +84,7 @@ router.route("/Roskilde%20festival").get((req, res) => {
 		res.end();
 	})
 })
-router.route("/Samsø festival").get((req, res) => {
+router.route("/Sams%C3%B8%20Festival").get((req, res) => {
 	fs.readFile("public/html/samsøfestival.html", (err, data) => {
 		res.writeHead(200, {"Content-Type": "text/html"})
 		res.write(data);
