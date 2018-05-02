@@ -9,11 +9,21 @@
   <title>Template</title>
 </head>
 <body>
+
 <!--Header (with searchbar and logo)  -->
 <div class="header">
   <div class="logo"><h1> Festivalg </h1></div>
-  <div class="searchbar"><p>INSERT SEARCHBAR HERE</p></div>
+  <div class="searchbar">
+    <form autocomplete="off" id="search_festivals" method="POST">
+      <div class="autocomplete" style="width:300px;">
+      <input id="myInput" type="text" name="myFestival" placeholder="">
+      </div>
+      <input id="search" type="image" src="../img/search.svg" alt="search" width="15" height="15">
+    </form>
+  </div>
 </div>
+
+
 <!-- top part of festivalpage, logo, name, description, price, placement  -->
 <div class="topinfo">
   <div class="festivalglogo"><img src="../img/placeholder.png" width="100" height="100"></div>
@@ -31,6 +41,8 @@ In et turpis id ipsum vulputate consequat. Aenean sit amet diam ante. Donec lobo
 sed mi ut cursus. Nullam id est sollicitudin, accumsan orci sit amet, tempus felis. Quisque
 mattis bibendum lacus consectetur accumsan. Mauris feugiat rutrum orci vitae cursus. In tristique
 nisl ac tincidunt tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
+
+
 <!--Artist/line-up info  -->
 <div class="artists">
   <h3> INSERT ARTIST LINEUP HERE </h3>
@@ -44,6 +56,8 @@ nisl ac tincidunt tempus. Lorem ipsum dolor sit amet, consectetur adipiscing eli
   sed mi ut cursus. Nullam id est sollicitudin, accumsan orci sit amet, tempus felis. Quisque
   mattis bibendum lacus consectetur accumsan. Mauris feugiat rutrum orci vitae cursus. In tristique
   nisl ac tincidunt tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
+
+
 <!--news  -->
 <div class="news">
   <center><h3>INSERT NEWS HERE</h3>
