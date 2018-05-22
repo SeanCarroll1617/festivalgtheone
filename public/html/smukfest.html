@@ -6,56 +6,202 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <!--specific stylesheet for this page  -->
   <link rel="stylesheet" type="text/css" href="../css/resultpage.css">
-  <title>Template</title>
+  <title>resultpage</title>
 </head>
 <body>
+
 <!--Header (with searchbar and logo)  -->
 <div class="header">
-  <div class="logo"><h1> Festivalg </h1></div>
-  <div class="searchbar"><p>INSERT SEARCHBAR HERE</p></div>
+  <div class="logo"><h1> Festivalg</h1></div>
+  <div class="searchbar">
+    <form autocomplete="off" id="search_festivals" method="POST">
+      <div class="autocomplete" style="width:300px;">
+      <input id="myInput" type="text" name="myFestival" placeholder="">
+      </div>
+      <input id="search" type="image" src="../img/search.svg" alt="search" width="15" height="15">
+    </form>
+  </div>
 </div>
-<!-- top part of festivalpage, logo, name, description, price, placement  -->
+
+
+<!--Logo and name  -->
+<center>
 <div class="topinfo">
-  <div class="festivalglogo"><img src="../img/placeholder.png" width="100" height="100"></div>
-    <h2 id="festivalname"> INSERT FESTIVAL NAME HERE </h2>
+  <!-- <div class="festivalglogo"><img src="../img/logo.png" width="100" height="100"></div> -->
+    <h2 id="festivalname"> <b>SMUKFEST</b></h2>
 </div>
+</center>
+
+<!--Festival description  -->
 <div class="description">
-<h3> INSERT FESTIVAL DESCRIPTION HERE </h3>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis condimentum lorem. Proin imperdiet,
-    risus eu ullamcorper rutrum, lacus metus luctus magna, vitae varius ante augue in sem. Aliquam auctor odio
-    at odio cursus, vitae sagittis lorem faucibus. Cras a diam malesuada turpis fermentum blandit quis tempus quam.
-    Aliquam tempor hendrerit nibh cursus auctor. Integer id aliquet orci. Cras eleifend pulvinar tincidunt. Aenean dui lacus,
-    elementum ornare semper eu, molestie vel neque. Donec id aliquet metus. Phasellus nec tincidunt eros.
+<!-- <h3> INSERT FESTIVAL DESCRIPTION HERE </h3> -->
+<p>Roskilde Festival is the largest North European culture and music festival and has existed since 1971. We are a non-profit organisation consisting of about 50 full-time employees and thousands of volunteers.
+Roskilde Festival 2018 will take place from 30 June until 7 July.
+Roskilde Festival 2019 will take place from 29 June until 6 July.
+Roskilde Festival 2020 will take place from 27 June until 4 July.
+Volunteers
+During the festival the number of volunteers increases to about 32,000. The volunteers staff the festival stalls, build stages, provide camping security etc.
+Non-profit society behind the festival
+Roskilde Festival Charity Society is the organiser of Roskilde Festival. The purpose of the society is to support initiatives benefitting children and young people and to support humanitarian and cultural work. The society's work is independent of party politics and has no geographical borders.</p></div>
 
-In et turpis id ipsum vulputate consequat. Aenean sit amet diam ante. Donec lobortis
-sed mi ut cursus. Nullam id est sollicitudin, accumsan orci sit amet, tempus felis. Quisque
-mattis bibendum lacus consectetur accumsan. Mauris feugiat rutrum orci vitae cursus. In tristique
-nisl ac tincidunt tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
-<!--Artist/line-up info  -->
-<div class="artists">
-  <h3> INSERT ARTIST LINEUP HERE </h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis condimentum lorem. Proin imperdiet,
-      risus eu ullamcorper rutrum, lacus metus luctus magna, vitae varius ante augue in sem. Aliquam auctor odio
-      at odio cursus, vitae sagittis lorem faucibus. Cras a diam malesuada turpis fermentum blandit quis tempus quam.
-      Aliquam tempor hendrerit nibh cursus auctor. Integer id aliquet orci. Cras eleifend pulvinar tincidunt. Aenean dui lacus,
-      elementum ornare semper eu, molestie vel neque. Donec id aliquet metus. Phasellus nec tincidunt eros.
+<!-- Artist Grid -->
+<center>
+<div class="row">
+<div class="column">
 
-  In et turpis id ipsum vulputate consequat. Aenean sit amet diam ante. Donec lobortis
-  sed mi ut cursus. Nullam id est sollicitudin, accumsan orci sit amet, tempus felis. Quisque
-  mattis bibendum lacus consectetur accumsan. Mauris feugiat rutrum orci vitae cursus. In tristique
-  nisl ac tincidunt tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
+
+<div class="image">
+  <img src="../img/kunstnere/kunstner1.jpg" width="200" height="200">
+  <div class="text">John Johnsen</div>
+</div>
+
+<div class="image">
+  <img src="../img/kunstnere/kunstner2.jpg" width="200" height="200">
+  <div class="text">Søren Sørensen</div>
+</div>
+<div class="image">
+<img src="../img/kunstnere/kunstner3.jpg" width="200" height="200">
+<div class="text">Bo Bosen</div>
+</div>
+<div class="image">
+<img src="../img/kunstnere/kunstner4.jpg" width="200" height="200">
+<div class="text">Nick Niksen</div>
+</div>
+<div class="image">
+<img src="../img/kunstnere/kunstner5.jpg" width="200" height="200">
+<div class="text">Edith Edithsen</div>
+</div>
+<div class="image">
+<img src="../img/kunstnere/kunstner6.jpg" width="200" height="200">
+<div class="text">Klara Klarasen</div>
+</div>
+<div class="image">
+<img src="../img/kunstnere/kunstner7.jpg" width="200" height="200">
+<div class="text">Jonas Jonasen</div>
+</div>
+<div class="image">
+<img src="../img/kunstnere/kunstner8.jpg" width="200" height="200">
+<div class="text">Bent Bentsen</div>
+</div>
+<div class="image">
+<img src="../img/kunstnere/kunstner9.jpg" width="200" height="200">
+<div class="text">Klaus Klausen</div>
+</div>
+<div class="image">
+  <img src="../img/kunstnere/kunstner1.jpg" width="200" height="200">
+  <div class="text">John Johnsen</div>
+</div>
+<div class="image">
+  <img src="../img/kunstnere/kunstner2.jpg" width="200" height="200">
+  <div class="text">Erik Eriksen</div>
+</div>
+<div class="image">
+<img src="../img/kunstnere/kunstner3.jpg" width="200" height="200">
+<div class="text">Hans Hansen</div>
+</div>
+
+
+</div>
+</div>
+</center>
+
+<style>
+
+h2 {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+p{
+  margin-right: 15px;
+}
+/* Center text inside image */
+.image {
+  position:relative;
+  text-align:center;
+  float: left;
+  margin: 8px;
+
+}
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+
+}
+/* Image grid */
+.row {
+display: flex;
+flex-wrap: wrap;
+padding: 0 4px;
+}
+/* Create four equal columns that sits next to each other */
+.column {
+flex: 100%;
+padding: 0 4px;
+}
+.column img {
+margin-top: 8px;
+vertical-align: middle;
+}
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+.column {
+  flex: 50%;
+  max-width: 50%;
+}
+}
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+.column {
+  flex: 100%;
+  max-width: 100%;
+}
+}
+/* Image hover effects */
+img:hover {
+  webkit-filter: blur(1px); /* Chrome, Safari, Opera */
+  filter: blur(1px);
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+  }
+
+  #festivalname {
+    color: white;
+  }
+</style>
+
 <!--news  -->
 <div class="news">
-  <center><h3>INSERT NEWS HERE</h3>
-<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-<li>Duis lacinia orci ut risus faucibus, nec dignissim tellus aliquet.</li>
-<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-<li>Duis lacinia orci ut risus faucibus, nec dignissim tellus aliquet.</li>
-<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-<li>Duis lacinia orci ut risus faucibus, nec dignissim tellus aliquet.</li></center>
+  <hr>
+  <br>
+<h3>INSERT NEWS HERE</h3>
+<a href="#"><li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li></a>
+<a href="#"><li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li></a>
+<a href="#"><li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li></a>
+<a href="#"><li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li></a>
+<a href="#"><li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li></a>
+<a href="#"><li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li></a>
+<a href="#"><li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li></a>
 </div>
+
+<h3> Social media </h3>
+<p> instagram feed </p>
+<p> facebook </p>
+<p> twitter </p>
+<p> get updates if new artists are announced </p>
 <!--Footer  -->
-<div class="footer"> Copyright Simon Eliasen</div>
+
+<center><div class="footer"> Copyright Simon Eliasen 2018</div></center>
 
 
 </body>
