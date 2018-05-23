@@ -7,114 +7,139 @@
   <title>Document</title>
 </head>
 <body>
+
+
+<!-- ARTIST Grid -->
+  <center>
   <div class="row">
   <div class="column">
-    <center>
 
   <div class="image">
-    <img src="../img/kunstnere/kunstner1.jpg" width="200" height="200">
-    <div class="text">Text of variable length
-    </div>
+    <img src="../img/kunstnere/kunstner1.jpg" alt="Avatar" class="src" width="250" height="250">
+    <div class="text">Søren Sørensen</div>
+    <div class="spotify"><iframe src="https://open.spotify.com/embed?uri=spotify:track:6QgjcU0zLnzq5OrUoSZ3OK" width="250" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div>
   </div>
+
   <div class="image">
-    <img src="../img/kunstnere/kunstner2.jpg" width="200" height="200">
-    <div class="text">Text of variable length
-    </div>
-</div>
-<div class="image">
-  <img src="../img/kunstnere/kunstner3.jpg" width="200" height="200">
-  <div class="text">Text of variable length
+    <img src="../img/kunstnere/kunstner1.jpg" alt="Avatar" class="src" width="250" height="250">
+    <div class="text">Søren Sørensen</div>
+    <div class="spotify"><iframe src="https://open.spotify.com/embed?uri=spotify:track:6QgjcU0zLnzq5OrUoSZ3OK" width="250" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div>
   </div>
-</div>
-<div class="image">
-  <img src="../img/kunstnere/kunstner4.jpg" width="200" height="200">
-  <div class="text">Text of variable length
+
+  <div class="image">
+    <img src="../img/kunstnere/kunstner1.jpg" alt="Avatar" class="src" width="250" height="250">
+    <div class="text">Søren Sørensen</div>
+    <div class="spotify"><iframe src="https://open.spotify.com/embed?uri=spotify:track:6QgjcU0zLnzq5OrUoSZ3OK" width="250" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div>
   </div>
-</div>
-<div class="image">
-  <img src="../img/kunstnere/kunstner5.jpg" width="200" height="200">
-  <div class="text">Text of variable length
-  </div>
-</div>
-<div class="image">
-  <img src="../img/kunstnere/kunstner6.jpg" width="200" height="200">
-  <div class="text">Text of variable length
-  </div>
-</div>
-<div class="image">
-  <img src="../img/kunstnere/kunstner7.jpg" width="200" height="200">
-  <div class="text">Text of variable length
-  </div>
-</div>
-<div class="image">
-  <img src="../img/kunstnere/kunstner8.jpg" width="200" height="200">
-  <div class="text">Text of variable length
-  </div>
-</div>
-<div class="image">
-  <img src="../img/kunstnere/kunstner9.jpg" width="200" height="200">
-  <div class="text">Text of variable length
-  </div>
-</div>
 
 
 
 
-    </center>
-  </div>
+
 </div>
+</div>
+</center>
+
+
+
+
 
 
 <style>
+/* Container needed to position the overlay. Adjust the width as needed */
+
+
+
+
+
 /* Center text inside image */
 .image {
-    position:relative;
-    text-align:center;
-    float: left;
-    margin: 8px;
+  position:relative;
+  text-align:center;
+  float: left;
+  margin: 8px;
+  max-width: 250px;
+
 }
 .text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
 }
+.src {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+/* The overlay effect - lays on top of the container and over the image */
+.spotify {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
 
+  text-align: center;
+}
+/* When you mouse over the container, fade in the overlay title */
+.image:hover .spotify {
+  opacity: 0.8;
+}
+h2 {
+  font-size: 60px;
+  font-weight: bold;
+}
+p{
+  margin-right: 15px;
+}
 /* Image grid */
 .row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
+display: flex;
+flex-wrap: wrap;
+padding: 0 4px;
 }
 /* Create four equal columns that sits next to each other */
 .column {
-  flex: 100%;
-  padding: 0 4px;
+flex: 100%;
+padding: 0 4px;
 }
 .column img {
-  margin-top: 8px;
-  vertical-align: middle;
+margin-top: 8px;
+vertical-align: middle;
 }
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
-  .column {
-    flex: 50%;
-    max-width: 50%;
-  }
+.column {
+  flex: 50%;
+  max-width: 50%;
+}
 }
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-  .column {
-    flex: 100%;
-    max-width: 100%;
-  }
+.column {
+  flex: 100%;
+  max-width: 100%;
 }
-/* Image hover effects */
-img:hover {
-    webkit-filter: blur(1px); /* Chrome, Safari, Opera */
-    filter: blur(1px);
 }
-</style>
 
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+  }
+  #festivalname {
+    color: white;
+  }
+</style>
 </body>
 </html>
