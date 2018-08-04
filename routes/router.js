@@ -113,8 +113,4 @@ router.route("/Thy%20rock").get((req, res) => {
 	})
 })
 
-app.get('*', function(req, res){
-  res.send('what???', 404);
-});
-
 module.exports = router
