@@ -1,0 +1,89 @@
+[33mcommit 6183b5923c5f8a5a21dc1b692876cb267179ec31[m
+Author: Simon Eliasen <simoneliasen@gmail.com>
+Date:   Fri May 25 21:53:09 2018 +0200
+
+    ui
+
+[33mcommit e15308aede6240fea9bb65b4f4fdfb9aebcde04a[m
+Author: Simon Eliasen <simoneliasen@gmail.com>
+Date:   Wed May 23 17:54:50 2018 +0200
+
+    bottom info
+
+[33mcommit 48acddbd30d54ca234e0843662ab9bf6517dfe46[m
+Author: Simon Eliasen <simoneliasen@gmail.com>
+Date:   Tue May 22 22:40:52 2018 +0200
+
+    more pics
+
+[33mcommit 3d62d7a531d4a4ba7b4aaa0d6bb50e11818d25e3[m
+Author: Simon Eliasen <simoneliasen@gmail.com>
+Date:   Tue May 22 22:36:02 2018 +0200
+
+    resultpage layout + grid
+
+[33mcommit 4f4c20cf5f193b54edbb2842edb654e2f9750752[m
+Author: Simon Eliasen <simoneliasen@gmail.com>
+Date:   Wed May 2 20:07:25 2018 +0200
+
+    template header +css
+
+[33mcommit 98b96030b92c52770aaf28f83c9c0048d93a47bd[m
+Author: Simon Eliasen <simoneliasen@gmail.com>
+Date:   Wed May 2 16:49:15 2018 +0200
+
+    result template
+
+[33mcommit b79c887e5debb16bb6140852a6520716b7d6b147[m
+Author: Simon Eliasen <simoneliasen@gmail.com>
+Date:   Wed May 2 13:48:38 2018 +0200
+
+    foreing characters
+
+[33mcommit 60043ee73f2313e22b95d12588b4113c72299df2[m
+Author: Simon Eliasen <simoneliasen@gmail.com>
+Date:   Tue May 1 22:54:31 2018 +0200
+
+    added htmlsites edited big capital
+
+[33mcommit d5a4943c3b937c26d962d39f6f06244b989accf6[m
+Author: Simon Eliasen <simoneliasen@gmail.com>
+Date:   Tue May 1 21:44:14 2018 +0200
+
+    removed port variable server.js
+
+[33mcommit f208f99140ec78abc97d84d56e7e9a67a9fc8047[m
+Author: Simon Eliasen <simoneliasen@gmail.com>
+Date:   Tue May 1 21:39:56 2018 +0200
+
+    server.js sean got it
+
+[33mcommit e1747aeab6fd4c0e20cf75e80eed8b662ee3f50c[m
+Author: Simon Eliasen <simoneliasen@gmail.com>
+Date:   Tue May 1 21:26:21 2018 +0200
+
+    server.js PORT gone
+
+[33mcommit 565dac3a1dce2402589bbd42475748663b5eee15[m
+Author: Simon Eliasen <simoneliasen@gmail.com>
+Date:   Tue May 1 21:17:46 2018 +0200
+
+    server.js 3000
+
+[33mcommit 8add4ae9e95a13bb6c267801827db9bf67e31383[m
+Author: Simon Eliasen <simoneliasen@gmail.com>
+Date:   Tue May 1 21:09:24 2018 +0200
+
+    edit package.json nodeserver
+
+[33mcommit c0e5004c0b57f6338d9d46659f8afc1e04cede25[m
+Author: Simon Eliasen <simoneliasen@gmail.com>
+Date:   Tue May 1 21:03:49 2018 +0200
+
+    added procfififllelel
+
+[33mcommit c9fd10d3d3ea56d4951d1ba3a649ccbdb9a7c273[m
+Author: Simon Eliasen <simoneliasen@gmail.com>
+Date:   Tue May 1 19:42:19 2018 +0200
+
+    make it better
