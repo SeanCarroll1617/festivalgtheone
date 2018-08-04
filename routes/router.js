@@ -113,4 +113,6 @@ router.route("/Thy%20rock").get((req, res) => {
 	})
 })
 
+app.get('*', (req, res) => res.redirect('/public/html/404.html'))
+
 module.exports = router
